@@ -1,10 +1,10 @@
-这是一个C++编写的 web3 windx86插件
-可以提供给 C/C++ Delphi 易语言 等非解释性语言调用
-
-支持交易签名带data 
-支持消息签名
-
-
+这是一个C++编写的 web3 windx86插件</br>
+可以提供给 C/C++ Delphi 易语言 等非解释性语言调用</br>
+</br>
+支持交易签名带data </br>
+支持消息签名</br>
+</br>
+</br>
 例子:
 ```例子
    Eth* eth = ETH_Create();
