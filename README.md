@@ -5,7 +5,7 @@
 支持消息签名
 
 
-
+例子:
 ```例子
    Eth* eth = ETH_Create();
    ETH_SetInfo(eth, "https://127.0.0.1", "58");
@@ -38,9 +38,9 @@
      ETH_SendSignedTransaction(eth, SignTrans);
     //消息签名
     ETH_SignMsg(eth,Sha3Raw("Hello World"), "0x1234567890abcdef12345678903736351c79efa95282e6bbd92801a876543210");
-    //ETH_GetChainId(eth);
-    //ETH_PrivateKeyToAddress(eth,"0x1234567890abcdef12345678903736351c79efa95282e6bbd92801a876543210");
-    //ETH_GetNonce(eth,"0xBeEDBF1d1908174b4Fc4157aCb128dA4FFa80942");
+    ETH_GetChainId(eth);
+    ETH_PrivateKeyToAddress(eth,"0x1234567890abcdef12345678903736351c79efa95282e6bbd92801a876543210");
+    ETH_GetNonce(eth,"0xBeEDBF1d1908174b4Fc4157aCb128dA4FFa80942");
     //PRC_Send
     const char* str = "{\"id\" : 1, \"jsonrpc\" : \"2.0\", \"method\" : \"eth_getBalance\", \"params\" : [\"0xBeEDBF1d1908174b4Fc4157aCb128dA4FFa80942\", \"latest\"] }";
     ETH_PrcSend(eth, str);
