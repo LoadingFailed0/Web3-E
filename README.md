@@ -45,3 +45,4 @@
     const char* str = "{\"id\" : 1, \"jsonrpc\" : \"2.0\", \"method\" : \"eth_getBalance\", \"params\" : [\"0xBeEDBF1d1908174b4Fc4157aCb128dA4FFa80942\", \"latest\"] }";
     ETH_PrcSend(eth, str);
   
+   技术项目交流群 tg: <a href="https://t.me/e_100btc">@e_100btc</a>
