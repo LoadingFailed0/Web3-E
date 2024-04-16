@@ -5,7 +5,8 @@
 支持消息签名
 
 
-   //例子
+
+```例子
    Eth* eth = ETH_Create();
    ETH_SetInfo(eth, "https://127.0.0.1", "58");
    //查询余额；
