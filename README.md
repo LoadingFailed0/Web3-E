@@ -1,4 +1,4 @@
-这是一个C++编写的 web3 windx86插件</br>
+这是一个C++编写的 web3 winx86插件</br>
 可以提供给 C/C++ Delphi 易语言 等非解释性语言调用</br>
 </br>
 支持交易签名带data </br>
