@@ -64,4 +64,4 @@
 
     cout << "Encoded_EncodeFunctionCall ABI: " <<ETH_ABI_EncodeFunctionCall(fun) << endl;
 ```  
-技术项目交流群 tg: <a href="https://t.me/e_100btc">@e_100btc</a>
+技术项目交流群 tg: <a href="https://t.me/e_10btc">@e_100btc</a>
